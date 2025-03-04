@@ -4,11 +4,11 @@ class Opm < Formula
   license "Apache-2.0"
 
   if OS.mac?
-  url "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.8.17/opm-mac-4.8.17.tar.gz"
-    sha256 "e3af48baa825800193b21ceee359103d306b99939cbd705a6c113714d784bca7"
+  url "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.9.10/opm-mac-4.9.10.tar.gz"
+    sha256 "afbaf3dfa649e9954136b444a7b267eb382569518943b8690d17f803017b6d5f"
   else
-    url "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.8.17/opm-linux-4.8.17.tar.gz"
-    sha256 "b32f220966e1e24d2b8c532b9e318ed3d7bc6cc34acf7726eabbb6d583ff755e"
+    url "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.9.10/opm-linux-4.9.10.tar.gz"
+    sha256 "43301f30a48e6ab5bdcb5dd69b8c9078aa71ff26fa1ba01422521cc1e9c89b51"
   end
 
   def install
